@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding-top: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 0, 221);
+    font-size: 290%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 0, 221);
+}
+
+/* ------------------------------------------------------------------ */
+
+@media only screen and (max-width: 750px) {
+
+    header {
+        padding-top: 42%;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 160%;
+    }
+
+}
